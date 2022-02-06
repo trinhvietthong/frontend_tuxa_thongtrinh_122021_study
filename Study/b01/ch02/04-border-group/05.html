@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 05</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .block{
+            width: 500px;
+            height: 300px;
+            margin: 20px auto;
+        }
+
+        .border{
+            /* Cách viết 1 */
+            border-top: thick double goldenrod;
+            border-right: thick double goldenrod;
+            border-bottom: thick double goldenrod;
+            border-left: thick double goldenrod;
+
+            /* Cách viết 2 */
+            border-width: thick;
+            border-style: double;
+            border-color: goldenrod;
+
+            /* Cách viết 3 */
+            border: thick double goldenrod;
+            
+            /* Cách viết 4 border-top khác so với các phần còn lại*/
+            border: thick double goldenrod;
+            border-top: 3px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <div class="block border">I have an Azure Function v3 that was running using the old dotnet
+        runtime with a .Net Core 3.1 framework version with dependant libraries,
+        those libraries have now changed to .Net 5,
+        so I have upgraded the function appropriately.</div>
+</body>
+</html>

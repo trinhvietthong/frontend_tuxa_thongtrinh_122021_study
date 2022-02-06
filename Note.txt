@@ -1,0 +1,174 @@
+Chương 01:
+3 thành phần cơ bản của thẻ HTML:
+  - Selector: 		Tên của thẻ HTML
+  - Property & Value:	Thuộc tính & giá trị của thuộc tính
+  - Content:		Nội chứa trong thẻ
+
+3 loại tag trong HTML:
+  - None: Khối này không hiển thị nội dung bên trong
+  - Block level: Khối này hiển thị nội dung bên trong, width: full screen
+  - Inline: Khối này hiển thị nội dung bên trong, width: depends on object width
+
+Các cách định dạng kiểu cho thẻ HTML:
+  style, id, class, selector, *
+độ ưu tiên:	style > id > class > selector > * 
+
+Trong CSS thì phần tử khai báo sau sẽ có độ ưu tiên cao hơn phần tử khai báo trước.
+
+
+
+
+Chương02:
+Phân nhóm định dạng (7 type):
+  1. Type group:
+     - font-family
+     - font-size
+     - font-style
+     - font-variant
+     - font-weight
+     - line-height
+     - text-transform: none, uppercase, lowercase, capitalize
+     - text-decoration: none, underline, overline, line-through
+     - color
+     - (cách viết tắt) font: font-style font-vatiant font-weight font-size/line-height font-family 
+  2. Backgound group:
+     - background-color
+     - background-image: url("")
+     - background-repeat: repeat-x, repeat-y, no-repeat, repeat(default value)
+     - background-position: top, right, bottom, left, center, 20px, 20%
+     - background-attachment: scroll, fixed
+  3. Block group:
+     - letter-spacing
+     - word-spacing
+     - text-align: center, left, right, justify
+     - text-indent
+     - white-space: normal, pre
+     - vertical-align: baseline, sub, super, top, text-top, middle, bottom, text-bottom, 0px,...
+     - display: none
+  4. Border group:
+     - border-width
+     - border-style
+     - border-color
+  5. Box group:
+     - width: min-width, max-width
+     - height: min-height, max-height
+     - margin: Khoảng cách đối với phần tử bên ngoài
+     - padding: Khoảng cách đối với phần tử bên trong
+     - float: Lệch khối về bên trái hoặc phải
+     - clear: Xóa các thuộc tính float ở các phần tử phía trên
+  6. List group:
+     - list-style-position
+     - list-style-type
+     - list-style-image
+     - (cách viết tắt) list-style: list-style-position list-style-type list-style-image
+???? Tại sao để class-title bên ngoài class-bar, vì nếu xem bar là 1 box thì title chỉ là nội dung bên trong bar
+  7. Position group:
+
+
+
+
+chương 3:
+  ・ Ancestor: gốc (thẻ gốc - thẻ ngoài cùng)
+	- vd: <body>
+		<div><p></p></div>
+		<h1></h1>
+	      </body>
+	-> thẻ <body> là thẻ ANCESTOR
+
+  ・ Descendant: con cháu (thẻ con - thẻ bên trong)
+	- vd: <body>
+		<div><p></p></div>
+		<h1></h1>
+	      </body>
+	-> thẻ <div>,<p>,<h1> là DESCENDANT của thẻ <body>
+
+  ・ Parent: cha (thẻ ngay bên ngoài)
+	- vd: <body>
+		<div><p></p></div>
+		<h1></h1>
+	      </body>
+	-> thẻ <div> là PARENT của thẻ <p>
+
+  ・ Child: con (thẻ ngay bên trong)
+	- vd: <body>
+		<div><p></p></div>
+		<h1></h1>
+	      </body>
+	-> thẻ <p> là CHILD của thẻ <div>
+
+  ・ Sibling: anh em (những thẻ có cùng thẻ Parent)
+	- vd: <body>
+		<div><p></p></div>
+		<h1></h1>
+	      </body>
+	-> thẻ <div>,<h1> là SIBLING của nhau vì có cùng PARENT là thẻ <body>
+
+Định dạng selector:
+  ・ Class selector: Sử dụng kí hiệu . để khai báo cho class
+  ・ Kết hợp class và type: <tag_name>.<class_name>
+  ・ ID selector: Sử dụng kí hiệu # để khai báo cho ID
+  ・ Descendant selectors:
+	<body>
+	    <h1><em></em></h1>
+	    <p><em></em></p>
+	</body>
+	-> em{ color: blue; }  ->  p em{ color: blue; }
+  ・ Attribure selector
+  ・ Pseudo Classes/Element:
+     - :visit, :visited, :active, :hover
+     - :focus
+     - :lang(language)
+     - :first-letter
+     - :first-line
+     - :first-child
+     - :before
+     - :after
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

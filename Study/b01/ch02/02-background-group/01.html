@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 01</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .block{
+            width: 500px;
+            height: 800px;
+            border: solid #000;
+            margin: 20px auto;
+        }
+
+        .bg{
+            /* Cách viết 1: viết riêng từng thuộc tính */
+            background-color: #153F74;
+            background-image: url("image/flower.gif");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+
+            /* Cách viết 2: gộp tất cả thuộc tính vào làm 1 thuộc tính background */
+            background: #153F74 url("image/flower.gif") no-repeat center center fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="block bg"></div>
+</body>
+</html>

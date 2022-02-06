@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clr {
+    clear: both;
+}
+
+.right {
+    width: 600px;
+    border: 2px solid #999;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#tab-D .tab-box {
+    border: 1px solid #999;
+    margin-top: -1px;
+}
+
+#tab-D .tab-box > a {
+    background: url("../images/tabD/arrow-right.png") 5px center no-repeat;
+    padding: 5px 5px 5px 30px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+#tab-D .tab-box > a:hover, #tab-D .current > a {
+    background: url("../images/tabD/arrow-down.png") 5px center no-repeat;
+    color: #00F;
+}
+
+#tab-D .tab-box > div {
+    display: none;
+}
+
+#tab-D .current > div {
+    padding: 10px;
+    border-top: 1px solid #999;
+    text-align: justify;
+    display: block;
+}

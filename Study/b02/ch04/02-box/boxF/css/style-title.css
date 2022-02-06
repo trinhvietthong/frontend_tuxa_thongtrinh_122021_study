@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    width: 400px;
+    border: 2px solid #666;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: silver;
+}
+
+.boxF {
+    border: 2px solid #4f4f4f;
+    background-color: white;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.boxF .top{
+    background: url("../images/boxF-title/tc.jpg") left top repeat-x;
+}
+
+.boxF .bottom{
+    height: 300px;
+    min-height: 250px;
+    background: url("../images/boxF-title/bc.jpg") left bottom repeat-x;
+}
+
+.boxF .header {
+    padding: 0px 43px;
+    background: url("../images/boxF-title/icon.gif") 12px center no-repeat;
+    font: italic bold 24px/47px Arial, Helvetica, sans-serif;   /* font-size/line-height */
+}
+
+.boxF .line {
+    height: 2px;
+    margin: 0px 10px 0px 10px;
+    background-color: #4f4f4f;
+}
+
+.boxF .content {
+    padding: 11px;
+}

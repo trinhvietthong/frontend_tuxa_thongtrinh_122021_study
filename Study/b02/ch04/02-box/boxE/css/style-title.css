@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    width: 400px;
+    border: 2px solid #666;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.boxE {
+    border: 2px solid #4f4f4f;
+    background: white url("../images/boxE-title/tc.jpg") left top repeat-x;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.boxE .header {
+    padding: 0px 43px;
+    background: url("../images/boxE-title/icon.gif") 12px center no-repeat;
+    font: italic bold 24px/47px Arial, Helvetica, sans-serif;   /* font-size/line-height */
+}
+
+.boxE .line {
+    height: 2px;
+    margin: 0px 10px 0px 10px;
+    background-color: #4f4f4f;
+}
+
+.boxE .content {
+    padding: 11px;
+}

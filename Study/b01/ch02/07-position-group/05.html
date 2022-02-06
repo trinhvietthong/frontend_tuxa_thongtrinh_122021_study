@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 05</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .block{
+            width: 600px;
+            height: 800px;
+            border: 2px solid #F00;
+            background: url("image/background.jpg") top center;
+            margin: 20px auto;
+            z-index: 9;
+        }
+
+        .overlay{
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.4;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+
+        .white-box{
+            width: 800px;
+            height: 350px;
+            border: 5px solid #00C;
+            background-color: #fff;
+            text-align: center;
+            line-height: 350px;
+            
+            /* Căn chỉnh Popup nằm chính giữa màn hình */
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-left: -400px;    /* margin-left: -(width/2) */
+            margin-top: -175px;     /* margin-top: -(height/2) */
+
+            z-index: 11;
+        }
+    </style>
+</head>
+<body>
+    <div class="block"></div>
+    <div class="overlay"></div>
+    <div class="white-box">
+        <h1>Lightbox is easy</h1>
+    </div>
+</body>
+</html>

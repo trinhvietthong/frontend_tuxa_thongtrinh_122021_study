@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    width: 400px;
+    border: 2px solid #666;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.boxC {
+    background: url("../images/boxC/tc.jpg") left top repeat-x #feffff;
+    border: 2px solid #4f4f4f;
+    padding: 20px 15px;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.boxC .content {
+}

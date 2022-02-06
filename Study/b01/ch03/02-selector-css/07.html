@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 07</title>
+    <style type='text/css'>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        p:before{
+            content: url("image/road-4.jpg");
+        }
+        p:after{
+            content: " <b>ZendVN-after</b>";
+        }
+        
+        h1:before{
+            content: open-quote;
+        }
+        h1::after{
+            content: close-quote;
+        }
+    </style>
+</head>
+<body>
+    <p>Khóa học "Làm chủ giao diện web"</p>
+    <h1>Khóa học Làm chủ giao diện web</h1>
+</body>
+</html>
