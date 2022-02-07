@@ -1,0 +1,284 @@
+body {
+    background: url(../images/background-body.jpg) left top repeat;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    background: url(../images/backgound.jpg) left top repeat;
+    width: 940px;
+    margin: 0px auto;
+    padding: 0px 60px;
+    padding-bottom: 10px;
+}
+
+
+/*  ===========================================  HEADER  ===========================================  */
+
+
+/*  ------------------------------------------  HEADER - Top ------------------------------------------  */
+
+#wrapper #header .top {
+    height: 130px;
+}
+
+#wrapper #header .top .logo {
+    height: 130px;
+    margin-left: 30px;
+    float: left;
+    line-height: 130px;
+}
+
+#wrapper #header .top .logo img {
+    vertical-align: middle;
+}
+
+#wrapper #header .top .currency {
+    float: right;
+    margin: 83px 0px 27px 0px;
+}
+
+#wrapper #header .top .currency>span {
+    font-weight: bold;
+}
+
+
+/*  ------------------------------------------  HEADER - Menu  ------------------------------------------  */
+
+#wrapper #header .menu {
+    background: url(../images/menu-left.jpg) left top no-repeat;
+}
+
+#wrapper #header .menu .right {
+    background: url(../images/menu-right.jpg) right top no-repeat;
+}
+
+#wrapper #header .menu .right .content {
+    background: url(../images/menu-content.jpg) left top repeat;
+    height: 45px;
+    margin: 0px 12px;
+}
+
+#wrapper #header .menu ul {
+    position: relative;
+}
+
+#wrapper #header .menu ul li {
+    float: left;
+}
+
+#wrapper #header .menu ul li a {
+    display: block;
+    padding: 0px 22px;
+    font: bold 14px/45px Arial, Helvetica, sans-serif;
+    color: #000079;
+    text-transform: uppercase;
+}
+
+#wrapper #header .menu ul li a:hover {
+    color: #363;
+    text-decoration: underline;
+}
+
+#wrapper #header .menu ul li.cart {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+}
+
+#wrapper #header .menu ul li.cart span {
+    font-weight: bold;
+}
+
+#wrapper #header .menu ul li.cart a {
+    display: inline;
+    padding: 2px;
+    font: 12px/45px Arial, Helvetica, sans-serif;
+    color: #7bb183;
+}
+
+#wrapper #header .menu ul li.cart a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+
+/*  ===========================================  CONTENT  ===========================================  */
+
+
+/*  ------------------------------------------  CONTENT - Main  ------------------------------------------  */
+
+#wrapper .main {
+    margin-top: 18px;
+}
+
+#wrapper .main .left {
+    width: 220px;
+    float: left;
+}
+
+#wrapper .main .right {
+    width: 700px;
+    margin-left: 240px;
+}
+
+
+/*  ------------------------------------------  CONTENT - Left  ------------------------------------------  */
+
+#wrapper .main .left #box-login {
+    margin-bottom: 18px;
+}
+
+#wrapper .main .left #box-login .content {
+    height: 240px;
+    min-height: 240px;
+}
+
+#wrapper .main .left .box .content .row {
+    margin-bottom: 16px;
+}
+
+#wrapper .main .left .box .content .row a {
+    color: #7c7c7c;
+}
+
+#wrapper .main .left .box .content .row a:hover {
+    text-decoration: underline;
+}
+
+#wrapper .main .left #box-search .content {
+    height: 80px;
+    min-height: 80px;
+}
+
+#wrapper .main .left #box-search #search-form .row span.button span {
+    position: relative;
+}
+
+#wrapper .main .left #box-search #search-form .row span.button span img {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+#wrapper .main .left #box-search #search-form .row span.button span img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+/*  ------------------------------------------  CONTENT - Left - box-login  ------------------------------------------  */
+
+.box {
+    text-align: justify;
+}
+
+.box .title {
+    height: 43px;
+    line-height: 43px;
+    font-size: 18px;
+}
+
+.box .header {
+    background: url(../images/box-tl.png) left top no-repeat;
+}
+
+.box .header .tr {
+    background: url(../images/box-tr.png) right top no-repeat;
+}
+
+.box .header .tc {
+    background-color: #fff;
+    height: 12px;
+    margin: 0 12px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.box .content {
+    background-color: #fff;
+    padding: 0 12px;
+    margin: -1px 0px;
+    border: 1px solid #e1e1e1;
+    border-width: 0px 1px;
+}
+
+.box .footer {
+    background: url(../images/box-bl.png) left bottom no-repeat;
+}
+
+.box .footer .br {
+    background: url(../images/box-br.png) right bottom no-repeat;
+}
+
+.box .footer .bc {
+    background-color: #fff;
+    height: 12px;
+    margin: 0 12px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+/*  ------------------------------------------  CONTENT - Left - box-special  ------------------------------------------  */
+
+#wrapper .main .left #box-special .content {
+    min-height: 720px;
+}
+
+#wrapper .main .left #box-special .content .special-product {
+    height: 121px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+#wrapper .main .left #box-special .content .special-product .img {
+    width: 80px;
+    height: 121px;
+    line-height: 121px;
+    float: left;
+}
+
+#wrapper .main .left #box-special .content .special-product .img img {
+    vertical-align: middle;
+}
+
+#wrapper .main .left #box-special .content .special-product .info {
+    margin-left: 80px;
+    padding: 27px 0px;
+}
+
+#wrapper .main .left #box-special .content .special-product .info p {
+    margin-bottom: 27px;
+}
+
+#wrapper .main .left #box-special .content .special-product .info span {
+    font-weight: bold;
+}
+
+
+/*  ------------------------------------------  CONTENT - Right  ------------------------------------------  */
+
+#wapper .main .right .slide {
+    width: 700px;
+    height: 386px;
+}
+
+
+/*  ------------------------------------------  Line  ------------------------------------------  */
+
+.line-w-45 {
+    width: 1px;
+    height: 45px;
+    background-color: #d2d2d2;
+}
+
+.line-h-220 {
+    width: 220px;
+    height: 1px;
+    background-color: #d2d2d2;
+    margin: 30px 0px;
+}
+
+.line-h-700 {
+    width: 700px;
+    height: 1px;
+    background-color: #d2d2d2;
+    margin: 30px 0px;
+}
